@@ -15,7 +15,7 @@ Change params (`CLIENT_ID`,`USERNAME` and `PASSWORD`) to yours.
 Run the script.
 
 To log in:
-`python3 realboard.py in`
+`python3 main.py in`
 
 To log out:
-`python3 realboard.py out`
+`python3 main.py out`
