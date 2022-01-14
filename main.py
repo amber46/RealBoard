@@ -14,10 +14,6 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 driver.get("https://watt.real-board.com/#/")
 assert "RealBoard Portal" in driver.title
 
-# //form//input[@id='f_ea647817-6dcb-4ebd-9064-1dc11d0569d6']
-# //form//input[@id='f_2d28c75d-b45c-484b-af92-5ba815bd073b']
-# //form//input[@id='f_2ec59921-4a49-422c-9a8a-25a47fe7487c']
-
 elem = driver.find_element(By.XPATH, "//form[1]//input[contains(@aria-label, 'מספר לקוח')]")
 elem.clear()
 elem.send_keys(CLIENT_ID)
