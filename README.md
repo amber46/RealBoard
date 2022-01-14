@@ -1,0 +1,15 @@
+real-board
+This script will help you to sign-in\out from real-board.com
+
+Installation
+Install selenium pip3 install selenium
+Install webdriver_manager pip3 install webdriver_manager
+
+Setup
+Change params (CLIENT_ID,USERNAME and PASSWORD) on file userprefs.py to yours.
+
+Run
+Run the script.
+
+To log in: python3 main.py in
+To log out: python3 main.py out
