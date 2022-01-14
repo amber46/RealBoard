@@ -15,6 +15,6 @@ Run
 
 Run the script.
 
-To log in: python3 realboard.py in
+To log in: python3 main.py in
 
-To log out: python3 realboard.py out
+To log out: python3 main.py out
